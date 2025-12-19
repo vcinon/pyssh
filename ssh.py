@@ -1,4 +1,3 @@
-cat > ssh_server.py << 'EOF'
 #!/usr/bin/env python3
 import paramiko
 import socket
@@ -191,4 +190,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-EOF
